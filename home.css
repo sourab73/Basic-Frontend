@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .neme-highlight {
     color: orange;
 }
@@ -14,6 +18,7 @@ h1 {
 .flexible-container {
     display: flex;
     margin-bottom: 150px;
+
 }
 
 
@@ -49,11 +54,37 @@ h1 {
     background-position: right;
 }
 
+.experiences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .experience-item {
     box-shadow: 10px 10px 40px gray;
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
     padding-left: 20px;
+    border-radius: 10px;
+    background-color: white;
 
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon, tomato);
+    border-image-slice: 1;
+    border-radius: 3px;
+}
+
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    font-weight: 700;
 }
